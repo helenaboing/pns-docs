@@ -30,6 +30,27 @@ Welcome to the Polkadot Naming Service (PNS) user guide. This guide will help yo
 5. Approve the transaction in your wallet
 6. Wait for confirmation
 
+### Domain Name Rules
+
+When creating a domain name, please follow the guidelines below to ensure your name is valid and accepted by the system.
+
+#### ✅ Allowed Characters
+- **Latin alphabet letters** (A–Z, a–z)
+- **Numbers** (0–9)
+
+#### ❌ Not Allowed
+- **Spaces** (e.g., `helena boing` is invalid)
+- **Emojis** (e.g., `🌟helena` is invalid)
+- **Dots between words** (e.g., `helena.boing` is invalid)
+
+#### ✅ Valid Examples
+- `helena`
+- `helena123`
+- `helena.dot`
+- `helena.jam`
+
+Only single names or names with **approved suffixes** like `.dot` and `.jam` are accepted.
+
 ### Viewing Your Names
 
 1. Go to the "My Names" section
