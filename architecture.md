@@ -19,6 +19,7 @@ The PNSRegistry is the central contract that manages the entire naming system. I
 - Operator permissions
 
 Key features:
+
 - Hierarchical domain structure
 - Permission management
 - Event emission for important state changes
@@ -166,4 +167,4 @@ graph LR
 3. **E2E Tests**
    - User journeys
    - Critical paths
-   - Error scenarios 
+   - Error scenarios

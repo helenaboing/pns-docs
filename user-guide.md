@@ -152,14 +152,12 @@ Only single names or names with **approved suffixes** like `.dot` and `.jam` are
 ### Getting Help
 
 1. **Documentation**
-   - Check the [PNS documentation](https://docs.pns)
-   - Read the [FAQ section](https://docs.pns/faq)
+   - Check the [PNS documentation](https://github.com/helenaboing/pns-docs)
    - Review [troubleshooting guides](https://docs.pns/troubleshooting)
 
 2. **Community Support**
    - Join the [Discord community](https://discord.gg/pns)
    - Check [GitHub discussions](https://github.com/mokita-j/pns/discussions)
-   - Follow [Twitter updates](https://twitter.com/pns)
 
 3. **Technical Support**
    - Submit issues on [GitHub](https://github.com/mokita-j/pns/issues)

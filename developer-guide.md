@@ -275,6 +275,5 @@ describe("PNS Frontend Integration", () => {
 
 For additional support:
 
-- Join our [Discord community](https://discord.gg/pns)
 - Check our [GitHub repository](https://github.com/mokita-j/pns)
-- Read our [documentation](https://docs.pns) 
+- Read our [documentation](https://github.com/helenaboing/pns-docs)
