@@ -156,7 +156,7 @@ Only single names or names with **approved suffixes** like `.dot` and `.jam` are
 
 1. **Documentation**
    - Check the [PNS documentation](https://github.com/helenaboing/pns-docs)
-   - Review [troubleshooting guides](https://docs.pns/troubleshooting)
+   - Review [troubleshooting guides](./troubleshooting.md)
 
 2. **Community Support**
    - Join the [Discord community](https://discord.gg/pns)
