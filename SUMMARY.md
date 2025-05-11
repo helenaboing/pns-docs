@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Architecture](architecture.md)
+* [Core Concepts](core-concepts.md)
 * [Developer Guide](developer-guide.md)
 * [User Guide](user-guide.md) 
