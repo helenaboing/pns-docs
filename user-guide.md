@@ -8,99 +8,99 @@ Welcome to the Polkadot Naming Service (PNS) user guide. This guide will help yo
 
 ### Prerequisites
 
-1. A Web3 wallet (like MetaMask)
+1. A Web3 wallet (MetaMask recommended)
 2. Some test tokens (WND) on the Westend Asset Hub testnet
-3. Basic understanding of blockchain concepts
 
 ### Connecting Your Wallet
 
-1. Visit the PNS website
-2. Click the "Connect Wallet" button
-3. Select your preferred wallet
-4. Approve the connection request
+For the best experience and compatibility, we recommend using MetaMask on Google Chrome. Other wallet options (such as Rainbow, Coinbase Wallet, or WalletConnect) may appear as options in the interface, but we have only tested MetaMask and cannot guarantee that the others will work correctly at this time.
+
+Follow these steps to connect MetaMask:
+
+1. **Install Google Chrome**
+   - Make sure you are using the Google Chrome browser on your computer
+
+2. **Add MetaMask Extension**
+   - Go to the MetaMask website and click "Download"
+   - Select "Chrome" and follow the instructions to add MetaMask to your browser extensions
+   - Once installed, you'll see the MetaMask fox icon 🦊 in your browser's extension bar
+
+3. **Set Up or Import a Wallet**
+   - Click the MetaMask icon 🦊
+   - Follow the prompts to create a new wallet or import an existing one using your seed phrase
+   - Set a secure password for your wallet
+
+4. **Connect MetaMask to PNS**
+   - Visit the PNS web app
+   - Click the "Connect Wallet" button
+   - When prompted, select MetaMask
+   - Approve the connection in the MetaMask popup
 
 ## Managing Your Names
 
-### Registering a Name
+### Registering and Setting Up Your Name
 
-1. Navigate to the "Register" page
-2. Enter your desired name (e.g., "myname.pns")
-3. Check name availability
-4. Click "Register"
-5. Approve the transaction in your wallet
-6. Wait for confirmation
+#### Step 1: Choose and Register Your Name
 
-### Domain Name Rules
+1. Choose your desired name (e.g., "myname.dot")
+2. Check name availability
+3. Click "Get (myname) now! 🚀"
+4. Approve the transaction in your wallet
+5. Wait for confirmation
 
-When creating a domain name, please follow the guidelines below to ensure your name is valid and accepted by the system.
+#### Step 2: Set Up Your Profile
 
-#### ✅ Allowed Characters
+After registration, you can customize your profile. Each update requires a gas fee transaction, so it's best to add all information at once.
+
+1. Search your profile name
+2. Click "View profile"
+3. Click the edit icon ✏️
+4. Fill in your profile information:
+   - Display name 👤
+   - Description 📝
+   - Email address 📧
+   - Website 🌐
+   - Twitter 🐦
+   - Telegram 📱
+   - Discord 💬
+   - Profile Image URL 🖼️
+5. Click "Save Changes"
+6. Approve the gas fee transaction in your wallet
+
+Note: You don't need to share all information - you can choose which details to make public. Each update will require a separate gas fee transaction.
+
+#### Name Requirements
+
+When creating a domain name, please follow these guidelines:
+
+##### ✅ Allowed Characters
 
 - **Latin alphabet letters** (A–Z, a–z)
 - **Numbers** (0–9)
 
-#### ❌ Not Allowed
+##### ❌ Not Allowed
 
 - **Spaces** (e.g., `helena boing` is invalid)
 - **Emojis** (e.g., `🌟helena` is invalid)
 - **Dots between words** (e.g., `helena.boing` is invalid)
 
-#### ✅ Valid Examples
+##### ✅ Valid Examples
 
-- `helena`
-- `helena123`
+- `helena123.dot`
 - `helena.dot`
 - `helena.jam`
 
-Only single names or names with **approved suffixes** like `.dot` and `.jam` are accepted.
+##### Name Length Requirements
 
-### Viewing Your Names
-
-1. Go to the "My Names" section
-2. View all names registered to your address
-3. See registration date and expiration
-4. Check current resolver settings
-
-### Updating Name Records
-
-#### Setting an Address
-
-1. Select your name from "My Names"
-2. Go to the "Records" tab
-3. Enter the address you want to associate
-4. Click "Update"
-5. Approve the transaction
-
-#### Setting Other Records
-
-1. Navigate to the "Records" tab
-2. Choose the record type
-3. Enter the record value
-4. Save changes
-5. Approve the transaction
+- Names must be at least 3 characters long
+- Only names with **approved suffixes** like `.dot` and `.jam` are accepted
 
 ### Transferring Names
 
-1. Select the name you want to transfer
-2. Click "Transfer"
-3. Enter the recipient's address
-4. Confirm the transfer
-5. Approve the transaction
-
-## Name Resolution
-
-### Resolving Names to Addresses
-
-1. Go to the "Resolve" page
-2. Enter the PNS name
-3. View the associated address
-4. Copy the address if needed
-
-### Reverse Resolution
-
-1. Enter an address in the search bar
-2. View any associated PNS names
-3. See primary name if set
+1. Click the transfer icon (user pen)
+2. Enter the recipient's address
+3. Confirm the transfer
+4. Approve the transaction
 
 ## Security
 
@@ -133,25 +133,6 @@ Only single names or names with **approved suffixes** like `.dot` and `.jam` are
    - Use official channels only
    - Verify support staff identity
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Transaction Failures**
-   - Check gas fees
-   - Verify network connection
-   - Ensure sufficient balance
-
-2. **Name Registration Issues**
-   - Verify name availability
-   - Check name format
-   - Ensure sufficient funds
-
-3. **Resolution Problems**
-   - Verify name spelling
-   - Check resolver settings
-   - Ensure proper network
-
 ### Getting Help
 
 1. **Documentation**
@@ -165,68 +146,3 @@ Only single names or names with **approved suffixes** like `.dot` and `.jam` are
 3. **Technical Support**
    - Submit issues on [GitHub](https://github.com/mokita-j/pns/issues)
    - Contact support team
-   - Check status page for outages
-
-## Advanced Features
-
-### Subdomains
-
-1. **Creating Subdomains**
-   - Select parent name
-   - Click "Create Subdomain"
-   - Enter subdomain name
-   - Set permissions
-
-2. **Managing Subdomains**
-   - View subdomain list
-   - Update records
-   - Transfer ownership
-
-### Custom Resolvers
-
-1. **Setting Custom Resolvers**
-   - Choose resolver type
-   - Enter resolver address
-   - Configure settings
-
-2. **Resolver Management**
-   - Update resolver settings
-   - Change resolver type
-   - Remove resolver
-
-## Frequently Asked Questions
-
-### General Questions
-
-1. **What is PNS?**
-   - PNS is a naming service for the Polkadot ecosystem
-   - It maps human-readable names to blockchain addresses
-   - It supports various record types
-
-2. **How much does it cost?**
-   - Registration fees vary by name length
-   - Gas fees apply for transactions
-   - No recurring fees
-
-3. **Can I transfer my name?**
-   - Yes, names are transferable
-   - Use the transfer function
-   - Verify recipient address
-
-### Technical Questions
-
-1. **What networks are supported?**
-   - Currently on Westend Asset Hub testnet
-   - More networks coming soon
-   - Check network status
-
-2. **How do resolvers work?**
-   - Resolvers store record data
-   - Different types available
-   - Can be customized
-
-3. **What record types are supported?**
-   - Address records
-   - Content hashes
-   - Custom records
-   - More coming soon
