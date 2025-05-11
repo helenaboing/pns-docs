@@ -3,6 +3,7 @@
 ## Code Style
 
 ### Solidity
+
 - Follow the [Solidity Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html)
 - Use 4 spaces for indentation
 - Maximum line length: 120 characters
@@ -23,6 +24,7 @@ require(msg.sender==owner);owner=newOwner;}
 ```
 
 ### TypeScript/JavaScript
+
 - Use ESLint with provided configuration
 - Use Prettier for formatting
 - Use TypeScript for new code
@@ -43,7 +45,6 @@ interface domainInfo {
   e: number
 }
 ```
-
 
 ## Documentation
 

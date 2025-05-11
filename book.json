@@ -1,11 +1,11 @@
 {
   "title": "PNS Documentation",
   "description": "Documentation for the Polkadot Naming Service (PNS)",
-  "author": "Helena Boing",
+  "author": "Helena Boing, Monica Jin, Miguel Roque Fernandes",
   "language": "en",
   "structure": {
-    "readme": "README.md",
-    "summary": "SUMMARY.md"
+    "readme": "readme.md",
+    "summary": "summary.md"
   },
   "plugins": [
     "theme-default",

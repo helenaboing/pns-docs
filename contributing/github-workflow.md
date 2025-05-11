@@ -3,18 +3,21 @@
 ## Setting Up Your Development Environment
 
 1. **Fork the Repository**
+
    ```bash
    # Visit https://github.com/mokita-j/pns
    # Click the "Fork" button in the top right
    ```
 
 2. **Clone Your Fork**
+
    ```bash
    git clone https://github.com/YOUR-USERNAME/pns.git
    cd pns
    ```
 
 3. **Add Upstream Remote**
+
    ```bash
    git remote add upstream https://github.com/mokita-j/pns.git
    ```
@@ -22,6 +25,7 @@
 ## Making Changes
 
 1. **Create a Branch**
+
    ```bash
    git checkout -b feature/your-feature-name
    # or
@@ -29,12 +33,14 @@
    ```
 
 2. **Keep Your Branch Updated**
+
    ```bash
    git fetch upstream
    git rebase upstream/main
    ```
 
 3. **Commit Your Changes**
+
    ```bash
    git add .
    git commit -m "feat: description of your changes"
@@ -52,6 +58,7 @@
 ## Submitting Pull Requests
 
 1. **Push Your Changes**
+
    ```bash
    git push origin feature/your-feature-name
    ```

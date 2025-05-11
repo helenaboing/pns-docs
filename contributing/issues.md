@@ -3,6 +3,7 @@
 ## Bug Reports
 
 ### Required Information
+
 1. **Environment Details**
    - PNS Version
    - Network (Testnet/Mainnet)
@@ -15,6 +16,7 @@
    - Steps to reproduce
 
 ### Template
+
 ```markdown
 **Description**
 A clear description of the bug
@@ -42,7 +44,8 @@ If applicable, add screenshots
 
 ## Feature Requests
 
-### Template
+### Feature Request Template
+
 ```markdown
 **Problem Statement**
 A clear description of the problem this feature would solve
@@ -60,8 +63,9 @@ Any other relevant information
 ## Security Issues
 
 For security-related issues:
+
 1. **DO NOT** create a public issue
-2. Email security@pns.dot
+2. Contact the team using email or other private channels
 3. Include detailed information
 4. Wait for response before disclosure
 

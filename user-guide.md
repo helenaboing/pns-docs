@@ -35,15 +35,18 @@ Welcome to the Polkadot Naming Service (PNS) user guide. This guide will help yo
 When creating a domain name, please follow the guidelines below to ensure your name is valid and accepted by the system.
 
 #### ✅ Allowed Characters
+
 - **Latin alphabet letters** (A–Z, a–z)
 - **Numbers** (0–9)
 
 #### ❌ Not Allowed
+
 - **Spaces** (e.g., `helena boing` is invalid)
 - **Emojis** (e.g., `🌟helena` is invalid)
 - **Dots between words** (e.g., `helena.boing` is invalid)
 
 #### ✅ Valid Examples
+
 - `helena`
 - `helena123`
 - `helena.dot`
@@ -226,4 +229,4 @@ Only single names or names with **approved suffixes** like `.dot` and `.jam` are
    - Address records
    - Content hashes
    - Custom records
-   - More coming soon 
+   - More coming soon
